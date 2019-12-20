@@ -7,6 +7,10 @@
 </head>
 <body>
 <?php
+$login_success_url = 'main.php';
+/*if (isset($_SESSION['id'])) {
+    header("Location: {$login_success_url}");
+}*/
 echo "仮会員登録をしました。"; <br />
 echo "送信されたメールに記載されているURLに接続し、登録を完了させてください。";
 ?>

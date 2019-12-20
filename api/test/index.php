@@ -13,7 +13,7 @@ require_once('login.php');
 
 $login_success_url = 'main.php';
 
-/*if (isset($_SESSION['id'])) {
+/*if ($_SESSION['flag'] == 1 && isset($_SESSION['id'])) {
     header("Location: {$login_success_url}");
 }*/
 
